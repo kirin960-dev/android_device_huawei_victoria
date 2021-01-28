@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
 set -e
 
 # Required!
-export DEVICE=berkeley
-export DEVICE_COMMON=kirin970-common
+export DEVICE=victoria
+export DEVICE_COMMON=hi3660-common
 export VENDOR=huawei
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
